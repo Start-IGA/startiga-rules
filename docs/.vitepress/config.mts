@@ -7,7 +7,7 @@ export default defineConfig({
   title: "STARTIGA Rules",
   description: "Official rules and ethical framework of the STARTIGA community",
   head: [
-  ['link', { rel: 'stylesheet', href: '/.vitepress/styles/rtl.css' }]
+  ['link', { rel: 'stylesheet', href: '/startiga-rules/docs/.vitepress/styles/rtl.css' }]
 ],
 
   themeConfig: {
