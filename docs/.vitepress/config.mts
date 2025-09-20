@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/startiga-rules/',
   lang: 'fa-IR',
   title: "STARTIGA Rules",
   description: "Official rules and ethical framework of the STARTIGA community",
