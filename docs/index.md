@@ -30,7 +30,6 @@ hero:
   margin: auto;
 }
 
-/* سبک کارت‌گونه برای هر بخش */
 .markdown-body h2 {
   background: #f3f4f6;
   padding: 1rem;
