@@ -6,9 +6,21 @@ export default defineConfig({
   lang: 'fa-IR',
   title: "STARTIGA Rules",
   description: "Official rules and ethical framework of the STARTIGA community",
+
   head: [
-  ['link', { rel: 'stylesheet', href: '/startiga-rules/docs/.vitepress/styles/rtl.css' }]
-],
+    [
+      'style',
+      {},
+      `
+      :root {
+        direction: rtl;
+      }
+      .VPDoc {
+        text-align: center;
+      }
+      `
+    ]
+  ],
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
